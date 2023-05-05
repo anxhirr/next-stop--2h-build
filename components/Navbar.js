@@ -34,7 +34,7 @@ const LINKS = [
 const Navbar = () => {
   const router = useRouter()
   return (
-    <div className='bg-gray-700'>
+    <div className='bg-gray-700 text-white sticky bottom-0 w-screen'>
       <div className='p-2 flex justify-between'>
         {LINKS.map((link) => {
           return (

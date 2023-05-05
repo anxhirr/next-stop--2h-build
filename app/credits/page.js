@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import { AiFillCheckCircle } from 'react-icons/ai'
 
 const pricingPlans = [
@@ -64,7 +63,6 @@ const Credits = () => {
           ))}
         </div>
       </div>
-      <Navbar />
     </div>
   )
 }

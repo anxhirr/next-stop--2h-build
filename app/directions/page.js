@@ -4,7 +4,6 @@ import { CiLocationOn } from 'react-icons/ci'
 import { AiFillHome } from 'react-icons/ai'
 import { FiArrowRight } from 'react-icons/fi'
 import { MdWork } from 'react-icons/md'
-import Navbar from '@/components/Navbar'
 
 const Directions = () => {
   return (
@@ -83,7 +82,6 @@ const Directions = () => {
           </div>
         </div>
       </div>
-      <Navbar />
     </div>
   )
 }

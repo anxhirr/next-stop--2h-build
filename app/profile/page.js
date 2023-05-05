@@ -1,11 +1,9 @@
-import Header from '@/components/Header'
-
 const Profile = () => {
   return (
     <div>
       <div className='text-center'>
-        <h1>Profile</h1>
-        <p>Wellcome to your profile</p>
+        <h1 className='text-4xl font-bold mb-3'>Profile</h1>
+        <p>Wellcome to your profile page.</p>
       </div>
     </div>
   )

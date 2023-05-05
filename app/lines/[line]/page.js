@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import { BUS_LINES } from '../page'
-import Navbar from '@/components/Navbar'
 import { BsArrowLeft } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
 
@@ -47,7 +46,6 @@ const Line = (props) => {
           )}
         </div>
       </div>
-      <Navbar />
     </div>
   )
 }

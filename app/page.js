@@ -4,12 +4,11 @@ import { CiLocationOn } from 'react-icons/ci'
 import { AiFillHome } from 'react-icons/ai'
 import { FiArrowRight } from 'react-icons/fi'
 import { MdWork } from 'react-icons/md'
-import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className='flex flex-col gap-2 h-screen'>
+    <div className='flex flex-col gap-2'>
       <div className='flex justify-between p-4'>
         <GiHamburgerMenu />
         <p>Tirane</p>
@@ -89,7 +88,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Navbar />
     </div>
   )
 }
