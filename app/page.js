@@ -5,6 +5,7 @@ import { AiFillHome } from 'react-icons/ai'
 import { FiArrowRight } from 'react-icons/fi'
 import { MdWork } from 'react-icons/md'
 import Navbar from '@/components/Navbar'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <div className='relative rounded-md mt-10'>
         <input
           type='text'
-          placeholder='Wher do you want to go'
+          placeholder='Where do you want to go'
           className='w-full p-3'
         />
         <div className='absolute top-0 right-0 h-full p-4 bg-red-500'>
@@ -24,15 +25,15 @@ export default function Home() {
         </div>
       </div>
       <div className='flex mt-4'>
-        <div className='p-2 bg-orange-500'>
-          <CiLocationOn />
+        <div className='px-2 py-5 bg-orange-500 w-full flex'>
+          <CiLocationOn size={25} />
           <div>
-            Your location is rewuired in order to provide you with the best
+            Your location is required in order to provide you with the best
             possible experience
           </div>
         </div>
       </div>
-      <div className='flex-grow overflow-y-scroll'>
+      <div className='flex-grow overflow-y-scroll my-4'>
         <div className='p-2 bg-gray-400'>
           <div className='flex justify-between'>
             <p>Favorites</p>
@@ -79,7 +80,12 @@ export default function Home() {
                 <p>Tap To Set</p>
               </div>
             </div>
-            <p>Join us</p>
+            <Link
+              className='border-b border-gray-400 text-gray-400'
+              href='https://github.com/anxhirr/next-stop--2h-build'
+            >
+              Join us
+            </Link>
           </div>
         </div>
       </div>

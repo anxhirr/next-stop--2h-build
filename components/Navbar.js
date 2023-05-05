@@ -4,17 +4,25 @@ import { useRouter } from 'next/navigation'
 import { FaDirections } from 'react-icons/fa'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineSatelliteAlt } from 'react-icons/md'
+import Link from 'next/link'
+import { BsFillCreditCardFill } from 'react-icons/bs'
 
 const LINKS = [
   {
     name: 'Directions',
-    path: '/directions',
+    path: '/',
     icon: <FaDirections size={25} />,
   },
   {
     name: 'Lines',
     path: '/lines',
     icon: <MdOutlineSatelliteAlt size={25} />,
+  },
+
+  {
+    name: 'Credits',
+    path: '/credits',
+    icon: <BsFillCreditCardFill size={25} />,
   },
   {
     name: 'Profile',
@@ -30,14 +38,14 @@ const Navbar = () => {
       <div className='p-2 flex justify-between'>
         {LINKS.map((link) => {
           return (
-            <button
+            <Link
+              href={link.path}
               key={link.name}
-              onClick={() => router.push(link.path)}
               className='flex flex-col gap-1 p-2 items-center'
             >
               {link.icon}
               <p>{link.name}</p>
-            </button>
+            </Link>
           )
         })}
       </div>
