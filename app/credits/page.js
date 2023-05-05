@@ -1,4 +1,5 @@
 import { AiFillCheckCircle } from 'react-icons/ai'
+import { BsChevronRight } from 'react-icons/bs'
 
 const pricingPlans = [
   {
@@ -58,6 +59,14 @@ const Credits = () => {
                     </li>
                   ))}
                 </ul>
+                <button>
+                  <div className='flex justify-center items-center gap-2 bg-red-500 text-white rounded-md p-3'>
+                    <p className='text-xl font-bold'>Buy Now</p>
+                    <p className='text-xl font-bold'>
+                      <BsChevronRight size={20} />
+                    </p>
+                  </div>
+                </button>
               </div>
             </div>
           ))}

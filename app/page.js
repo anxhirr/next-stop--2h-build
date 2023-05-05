@@ -10,22 +10,24 @@ export default function Home() {
   return (
     <div className='flex flex-col gap-2'>
       <div className='flex justify-between p-4'>
-        <GiHamburgerMenu />
+        <GiHamburgerMenu size={25} />
         <p>Tirane</p>
       </div>
       <div className='relative rounded-md mt-10'>
         <input
           type='text'
           placeholder='Where do you want to go'
-          className='w-full p-3'
+          className='w-full p-3 text-black'
         />
         <div className='absolute top-0 right-0 h-full p-4 bg-red-500'>
           <BsSearch className='text-black' />
         </div>
       </div>
       <div className='flex mt-4'>
-        <div className='px-2 py-5 bg-orange-500 w-full flex'>
-          <CiLocationOn size={25} />
+        <div className='px-2 py-5 bg-orange-500 w-full flex items-center gap-3'>
+          <div>
+            <CiLocationOn size={25} />
+          </div>
           <div>
             Your location is required in order to provide you with the best
             possible experience

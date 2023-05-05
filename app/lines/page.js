@@ -26,6 +26,7 @@ export const BUS_LINES = {
       isBus: true,
       isNight: false,
       isMetro: false,
+      etaInSec: 500,
     },
     {
       id: 3,
@@ -36,6 +37,7 @@ export const BUS_LINES = {
       isBus: false,
       isNight: false,
       isMetro: true,
+      etaInSec: 200,
     },
   ],
   recent: [
