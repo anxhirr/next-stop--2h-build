@@ -1,5 +1,5 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { BsSearch } from 'react-icons/bs'
+import { BsFillCapslockFill, BsSearch } from 'react-icons/bs'
 import { CiLocationOn } from 'react-icons/ci'
 import { AiFillHome } from 'react-icons/ai'
 import { FiArrowRight } from 'react-icons/fi'
@@ -75,10 +75,9 @@ export default function Home() {
         <div className='bg-gray-800'>
           <div className='flex justify-between items-center p-2'>
             <div className='flex gap-2 items-center'>
-              <MdWork size={25} />
-              <div>
-                <p>Work</p>
-                <p>Tap To Set</p>
+              <BsFillCapslockFill size={25} />
+              <div className='py-4'>
+                <p>Help make public transport better</p>
               </div>
             </div>
             <Link

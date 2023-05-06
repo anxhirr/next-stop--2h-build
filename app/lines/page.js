@@ -84,18 +84,6 @@ export const BUS_LINES = {
       isMetro: false,
     },
   ],
-  metro: [
-    {
-      id: 3,
-      name: 'Line 3',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      isFavorite: true,
-      isBus: false,
-      isNight: false,
-      isMetro: true,
-    },
-  ],
 }
 
 const Lines = () => {
