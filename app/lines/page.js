@@ -14,7 +14,6 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
-      isMetro: false,
       etaInSec: 300,
     },
     {
@@ -25,7 +24,6 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
-      isMetro: false,
       etaInSec: 500,
     },
     {
@@ -36,8 +34,89 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: false,
       isNight: false,
-      isMetro: true,
       etaInSec: 200,
+    },
+    {
+      id: 'dajti',
+      name: 'Dajti',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'kombinat-sheshi-skenderbej',
+      name: 'Kombinat - Sheshi Skenderbej',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'kombinat-kinostudio',
+      name: 'Kombinat - Kinostudio',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'kombinat-21-dhjetori',
+      name: 'Kombinat - 21 Dhjetori',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'unaza',
+      name: 'Unaza',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'procelan-qender',
+      name: 'Procelan - Qender',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'sauk-qender',
+      name: 'Sauk - Qender',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: false,
+      isNight: false,
+    },
+    {
+      id: 'tufine-qender',
+      name: 'Tufine - Qender',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: false,
+      isNight: false,
+    },
+    {
+      id: 'Sharre-uzina-dinamo',
+      name: 'Sharre - Uzina Dinamo',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: false,
+      isNight: false,
     },
   ],
   recent: [
@@ -49,7 +128,6 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
-      isMetro: false,
     },
     {
       id: 2,
@@ -59,29 +137,92 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
-      isMetro: false,
     },
   ],
-  bus: [
+  dajti: [
     {
-      id: 1,
-      name: 'Line 1',
+      id: 'dajti',
+      name: 'Dajti - Tirane',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
       isFavorite: true,
       isBus: true,
       isNight: false,
-      isMetro: false,
+    },
+  ],
+  shktq: [
+    {
+      id: 'kombinat-sheshi-skenderbej',
+      name: 'Kombinat - Sheshi Skenderbej',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
     },
     {
-      id: 2,
-      name: 'Line 2',
+      id: 'kombinat-kinostudio',
+      name: 'Kombinat - Kinostudio',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
       isFavorite: true,
       isBus: true,
       isNight: false,
-      isMetro: false,
+    },
+    {
+      id: 'kombinat-21-dhjetori',
+      name: 'Kombinat - 21 Dhjetori',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'unaza',
+      name: 'Unaza',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'procelan-qender',
+      name: 'Procelan - Qender',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: true,
+      isNight: false,
+    },
+    {
+      id: 'sauk-qender',
+      name: 'Sauk - Qender',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: false,
+      isNight: false,
+    },
+    {
+      id: 'tufine-qender',
+      name: 'Tufine - Qender',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: false,
+      isNight: false,
+    },
+    {
+      id: 'Sharre-uzina-dinamo',
+      name: 'Sharre - Uzina Dinamo',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+      isFavorite: true,
+      isBus: false,
+      isNight: false,
     },
   ],
 }
