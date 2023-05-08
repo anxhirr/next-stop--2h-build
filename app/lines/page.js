@@ -44,6 +44,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 200,
     },
     {
       id: 'kombinat-sheshi-skenderbej',
@@ -54,6 +55,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 200,
     },
     {
       id: 'kombinat-kinostudio',
@@ -63,6 +65,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 400,
     },
     {
       id: 'kombinat-21-dhjetori',
@@ -72,6 +75,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'unaza',
@@ -81,6 +85,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 350,
     },
     {
       id: 'procelan-qender',
@@ -90,6 +95,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'sauk-qender',
@@ -99,6 +105,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: false,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'tufine-qender',
@@ -108,6 +115,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: false,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'Sharre-uzina-dinamo',
@@ -117,6 +125,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: false,
       isNight: false,
+      etaInSec: 300,
     },
   ],
   recent: [
@@ -128,6 +137,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 2,
@@ -137,6 +147,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
   ],
   dajti: [
@@ -148,6 +159,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
   ],
   shktq: [
@@ -160,6 +172,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'kombinat-kinostudio',
@@ -169,6 +182,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'kombinat-21-dhjetori',
@@ -178,6 +192,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'unaza',
@@ -187,6 +202,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'procelan-qender',
@@ -196,6 +212,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: true,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'sauk-qender',
@@ -205,6 +222,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: false,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'tufine-qender',
@@ -214,6 +232,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: false,
       isNight: false,
+      etaInSec: 300,
     },
     {
       id: 'Sharre-uzina-dinamo',
@@ -223,6 +242,7 @@ export const BUS_LINES = {
       isFavorite: true,
       isBus: false,
       isNight: false,
+      etaInSec: 300,
     },
   ],
 }

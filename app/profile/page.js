@@ -1,6 +1,6 @@
 const Profile = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
       <div className='text-center'>
         <h1 className='text-4xl font-bold mb-3'>Profile</h1>
         <p>Wellcome to your profile page.</p>
@@ -60,6 +60,15 @@ const Profile = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='text-center'>
+        <h3 className='mt-20 text-xl'>Customer Support</h3>
+        <p className='mt-4'>
+          If you have any questions or concerns, please contact us at
+          <a href='mailto: nextstop@gmail.com'>
+            <span className='text-blue-500'>NEXTSOP</span>
+          </a>
+        </p>
       </div>
     </div>
   )

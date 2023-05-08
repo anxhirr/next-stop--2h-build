@@ -21,6 +21,7 @@ const pricingPlans = [
       'Includes 2,000 daily flow runs',
       'Includes 1 portal login',
     ],
+    hasBadge: true,
   },
   {
     name: 'Enterprise',
@@ -46,7 +47,12 @@ const Credits = () => {
       <div className='mt-6 flex-grow'>
         <div className='flex flex-col gap-5 md:flex-row items-center justify-center'>
           {pricingPlans.map((plan) => (
-            <div key={plan.name} className='h-full'>
+            <div key={plan.name} className='h-full relative'>
+              {plan.hasBadge && (
+                <div className='absolute top-2 -right-6 bg-red-500 text-white rounded-full p-2 rotate-45'>
+                  <p className='text-sm font-bold'>10% Discount</p>
+                </div>
+              )}
               <div className='flex flex-col gap-1 p-4 border border-red-200 rounded-2xl max-w-xs'>
                 <h2 className='text-2xl font-bold'>{plan.name}</h2>
                 <p className='text-2xl font-bold'>{plan.price}</p>
